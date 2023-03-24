@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dog-age-calculator/static/css/main.c3b16e26.css",
+    "main.js": "/dog-age-calculator/static/js/main.d692d0ed.js",
+    "index.html": "/dog-age-calculator/index.html",
+    "main.c3b16e26.css.map": "/dog-age-calculator/static/css/main.c3b16e26.css.map",
+    "main.d692d0ed.js.map": "/dog-age-calculator/static/js/main.d692d0ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3b16e26.css",
+    "static/js/main.d692d0ed.js"
+  ]
+}
