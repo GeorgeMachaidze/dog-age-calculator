@@ -1,38 +1,81 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 5px solid #3F979B;
+border-radius: 20px;
+margin-top: 20%;
+padding: 10%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #B9F3FC;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.header-text{
+  color: #3F979B;
+  font-family: 'Delicious Handrawn';
+  letter-spacing: 3px;
+  font-size: 35px;
+  margin-top: 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+  color: #3F979B;
+  font-family: 'Delicious Handrawn';
+  letter-spacing: 2px;
+  font-size: 20px;
+  align-self: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  display: flex;
+  flex-direction: column;
+}
+label p{
+  margin-top: -10px;
+}
+input{
+  margin-top: 20px;
+  background-color: #8BF5FA;
+  border: 0px;
+  border-radius: 50px;
+  padding-left: 10px;
+  font-family: 'Delicious Handrawn';
+  font-size: 20px;
+  color: #3F979B;
+  height: 25px;
+  text-align: center;
+}
+  button{
+  margin-top: 15px;
+  background-color: #3F979B;
+  border-radius: 50px;
+  border: 0px;
+  color: #8BF5FA;
+  margin-bottom: 20px;
+  font-family: 'Delicious Handrawn';
+  letter-spacing: 2px;
+  padding: 5px;
+  margin-top: 25px;
+}
+input[type="number"]:focus {
+  border: 0px;
+}
+input[type="number"], textarea, select { 
+  outline: none;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
